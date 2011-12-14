@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pl:project xmlns:pl="http://www.pluralis.com/prepare">
+    <pl:name>Sample Project</pl:name>
+    <pl:description>This is a sample project. Requirements should not be taken that seriously. ;-)</pl:description>
+    <usecase priority="2" id="UC-0">
+        <name>Enter Use Case</name>
+        <description>Business Analyst usually enters use cases by hand into the application graphical user interface.</description>
+        <complexity>High</complexity>
+        <status>Open</status>
+        <precondition></precondition>
+        <postcondition></postcondition>
+        <flow></flow>
+        <level>Implement</level>
+        <requirement>R-0</requirement>
+        <primary-actor>A-0</primary-actor>
+        <supporting-actor></supporting-actor>
+        <related-document>C:\Dokumente und Einstellungen\karsten.kroesch\Eigene Dateien\185562_manual.pdf</related-document>
+    </usecase>
+    <usecase priority="2" id="UC-1">
+        <name>Export SRS</name>
+        <description>The software requirements specification is exported as PDF file.</description>
+        <complexity>Medium</complexity>
+        <status>Open</status>
+        <precondition></precondition>
+        <postcondition></postcondition>
+        <flow></flow>
+        <level>Implement</level>
+        <test-case>T-1</test-case>
+        <requirement>R-0</requirement>
+        <primary-actor>A-2</primary-actor>
+        <supporting-actor></supporting-actor>
+    </usecase>
+    <usecase priority="2" id="UC-2">
+        <name>Enter Actor</name>
+        <description>Enter the actors which are using application functionality.</description>
+        <complexity>Low</complexity>
+        <status>Open</status>
+        <precondition></precondition>
+        <postcondition></postcondition>
+        <flow></flow>
+        <level>Implement</level>
+        <requirement>R-1</requirement>
+        <primary-actor></primary-actor>
+        <supporting-actor></supporting-actor>
+    </usecase>
+    <usecase priority="2" id="UC-3">
+        <name>Enter NFR</name>
+        <description>Entering the non-functional requirements for the software system.</description>
+        <complexity>Low</complexity>
+        <status>Open</status>
+        <precondition></precondition>
+        <postcondition></postcondition>
+        <flow></flow>
+        <level>Implement</level>
+        <primary-actor></primary-actor>
+        <supporting-actor></supporting-actor>
+    </usecase>
+    <usecase priority="2" id="UC-4">
+        <name>Status Report</name>
+        <description>Visit the status report.</description>
+        <complexity>Medium</complexity>
+        <status>Open</status>
+        <precondition></precondition>
+        <postcondition></postcondition>
+        <flow></flow>
+        <level>Implement</level>
+        <primary-actor></primary-actor>
+        <supporting-actor></supporting-actor>
+    </usecase>
+    <usecase priority="2" id="UC-5">
+        <name>Connecting Test Cases</name>
+        <description>Connect a use case to an apt test case for gathering status of use case completion.</description>
+        <complexity>Low</complexity>
+        <status>Open</status>
+        <precondition></precondition>
+        <postcondition></postcondition>
+        <flow></flow>
+        <level>Implement</level>
+        <primary-actor></primary-actor>
+        <supporting-actor></supporting-actor>
+    </usecase>
+    <actor id="A-0">
+        <name>Business Analyst</name>
+        <description>Business Analyst gathers Use Cases and collects them into the project.</description>
+        <complexity>Complex</complexity>
+    </actor>
+    <actor id="A-1">
+        <name>Estimator</name>
+        <description>Program module for automatic software size estimation.</description>
+        <complexity>Low</complexity>
+    </actor>
+    <actor id="A-2">
+        <name>Project Manager</name>
+        <description>Gets reports from the application.</description>
+        <complexity>Complex</complexity>
+    </actor>
+    <requirement id="R-0">
+        <name>Ease of Use</name>
+        <description>The application must be operated without no prior training.</description>
+    </requirement>
+    <requirement id="R-1">
+        <name>Keyboard Shortcuts</name>
+        <description>For user effiency, all important program functions must be available by keyboard shortcuts, like e.g. CTRL+U for new use case.</description>
+        <related-document>C:\Dokumente und Einstellungen\karsten.kroesch\Eigene Dateien\Clipboard01.tif</related-document>
+        <related-document>C:\Dokumente und Einstellungen\karsten.kroesch\Eigene Dateien\Ice-3.0.1.pdf</related-document>
+    </requirement>
+    <requirement id="R-2">
+        <name>W�rter an die Adjustments drnschreiben</name>
+        <description></description>
+    </requirement>
+    <requirement id="R-3">
+        <name>Nochn Requirement</name>
+        <description></description>
+        <related-document>C:\Dokumente und Einstellungen\karsten.kroesch\Eigene Dateien\0028_001.pdf</related-document>
+    </requirement>
+    <test-case id="T-1">
+        <name>Sample Test Case</name>
+        <test-class>com.pluralis.plucker.model.TestCase</test-class>
+        <result>NOT_RUN</result>
+        <related-document>C:\Dokumente und Einstellungen\karsten.kroesch\Eigene Dateien\0028_001.pdf</related-document>
+    </test-case>
+    <test-case id="T-2">
+        <name>Testcase not defined</name>
+        <test-class>com.pluralis.plucker.model.TestCase</test-class>
+        <result>NOT_RUN</result>
+        <related-document>C:\Dokumente und Einstellungen\karsten.kroesch\Eigene Dateien\185562_manual.pdf</related-document>
+    </test-case>
+    <test-case id="T-2">
+        <name>Testet Status Report</name>
+        <test-class>org.junit.Test</test-class>
+        <result>NOT_RUN</result>
+    </test-case>
+    <activity id="ACT-000">
+        <status>Dismissed</status>
+        <name>Sample Activity</name>
+        <assignment>UC-0 Enter Use Case</assignment>
+        <author>NO AUTHOR</author>
+        <description>Default activity</description>
+        <estimated>0</estimated>
+        <real>0</real>
+        <remaining>0</remaining>
+        <started>2006-07-20T11:58:12.204+02:00</started>
+        <due-date>2006-07-20T11:58:12.204+02:00</due-date>
+    </activity>
+    <activity id="ACT-1">
+        <status>Open</status>
+        <name>Beispiel</name>
+        <assignment>UC-2 Enter Actor</assignment>
+        <author>NO AUTHOR</author>
+        <description>Default activity</description>
+        <estimated>0</estimated>
+        <real>0</real>
+        <remaining>0</remaining>
+        <started>2006-09-11T14:36:20.482+02:00</started>
+        <due-date>2006-09-11T14:36:20.482+02:00</due-date>
+    </activity>
+    <activity id="ACT-2">
+        <status>Open</status>
+        <name>NO ACTIVITY</name>
+        <assignment>UC-4 Status Report</assignment>
+        <author>NO AUTHOR</author>
+        <description>Default activity</description>
+        <estimated>0</estimated>
+        <real>0</real>
+        <remaining>0</remaining>
+        <started>2006-09-22T16:28:21.189+02:00</started>
+        <due-date>2006-09-22T16:28:21.189+02:00</due-date>
+    </activity>
+    <change-request id="CR-0">
+        <summary>Software shall handle Change Requests.</summary>
+        <description>Beschreibung (ausf�hrliche)</description>
+        <type>Feature Change</type>
+        <status>Assigned</status>
+        <severity>Medium</severity>
+        <priority>0</priority>
+        <rough-estimation>0</rough-estimation>
+        <detailed-estimation>0</detailed-estimation>
+        <due-date>2006-09-30T00:00:00.000+02:00</due-date>
+    </change-request>
+    <glossary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:org.exolab.castor.mapping.MapItem">
+        <key xsi:type="java:java.lang.String">Kommunikation</key>
+        <value xsi:type="entry">
+            <description></description>
+            <term>Kommunikation</term>
+        </value>
+    </glossary>
+    <glossary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:org.exolab.castor.mapping.MapItem">
+        <key xsi:type="java:java.lang.String">Kultur</key>
+        <value xsi:type="entry">
+            <description>Kultur ist die generationen�bergreifende Stabilit�t ontogenetisch erworbenen Verhaltens bezogen auf die Dynamik des jeweiligen sozialen Milieus.</description>
+            <term>Kultur</term>
+        </value>
+    </glossary>
+    <glossary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:org.exolab.castor.mapping.MapItem">
+        <key xsi:type="java:java.lang.String">Raum</key>
+        <value xsi:type="entry">
+            <description></description>
+            <term>Raum</term>
+        </value>
+    </glossary>
+    <glossary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:org.exolab.castor.mapping.MapItem">
+        <key xsi:type="java:java.lang.String">Licht</key>
+        <value xsi:type="entry">
+            <description></description>
+            <term>Licht</term>
+        </value>
+    </glossary>
+    <estimation-settings>
+        <e8>3</e8>
+        <e7>0</e7>
+        <e6>2</e6>
+        <e5>5</e5>
+        <t9>2</t9>
+        <e4>3</e4>
+        <t8>0</t8>
+        <e3>5</e3>
+        <t7>5</t7>
+        <e2>5</e2>
+        <t6>5</t6>
+        <e1>5</e1>
+        <t5>0</t5>
+        <t4>1</t4>
+        <t3>5</t3>
+        <t2>2</t2>
+        <t1>1</t1>
+        <t14>0</t14>
+        <t13>0</t13>
+        <t12>0</t12>
+        <t11>0</t11>
+        <t10>0</t10>
+    </estimation-settings>
+    <pl:related-document>C:\Dokumente und Einstellungen\karsten.kroesch\Eigene Dateien\0028_001.pdf</pl:related-document>
+    <pl:related-document>C:\Dokumente und Einstellungen\karsten.kroesch\Eigene Dateien\0028_0021.pdf</pl:related-document>
+</pl:project>

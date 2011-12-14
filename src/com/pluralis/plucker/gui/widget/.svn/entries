@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="2"
+   repos="https://albedo.kroesch.de/svn/plucker"
+   url="https://albedo.kroesch.de/svn/plucker/trunk/src/com/pluralis/plucker/gui/widget"
+   last-author="karsten"
+   uuid="23feb8de-63e2-4747-8080-5995b7da7f19"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="dir"
+   name=""
+   committed-rev="2"/>
+<entry
+   checksum="446575b70dbaf891f2c4f8a85d3fb221"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="CheckList.java"
+   committed-rev="2"/>
+<entry
+   checksum="ee144262c40235599c35b745cacea5f2"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ColorComboBox.java"
+   committed-rev="2"/>
+<entry
+   checksum="9ab52a827a1220a810fea48241e0f3bb"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ColorIcon.java"
+   committed-rev="2"/>
+<entry
+   checksum="adacb0823b8c0b26bed47a613c6cd73c"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="EditorListModel.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="4738188ba7da405f143b91409b2fe6db"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="FileList.java"
+   committed-rev="3"/>
+<entry
+   revision="3"
+   checksum="7c23a4e1f07a35684546bd5651bcae66"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="FileTextField.java"
+   committed-rev="3"/>
+<entry
+   revision="3"
+   checksum="9ef486f24b832ca372c3308ab35fbd30"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="ListEditor.java"
+   committed-rev="3"/>
+<entry
+   checksum="05abde33897fd77210b623e26c9fe0d4"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="NamedItemRenderer.java"
+   committed-rev="2"/>
+<entry
+   checksum="6310d40124094def3fb808c92f6bc3f0"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="RichTextEditor.java"
+   committed-rev="2"/>
+<entry
+   checksum="3bd35b5dbbbe4e6f48daf121c17ca7a2"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="SearchStarter.java"
+   committed-rev="2"/>
+<entry
+   checksum="3d6e4d4b5294342d6d262d9b4bae2bf6"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="Separator.java"
+   committed-rev="2"/>
+</wc-entries>

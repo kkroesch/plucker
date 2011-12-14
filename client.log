@@ -1,0 +1,249 @@
+12:55:10,152 INFO  [Main] Configuring Look and Feel
+12:55:10,196 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.jpg
+12:55:10,746 INFO  [Main] Building user interface
+12:55:10,758 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/backward.gif
+12:55:10,777 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/forward.gif
+12:55:10,779 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/home.gif
+12:55:10,781 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/undo.gif
+12:55:10,783 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/redo.gif
+12:55:10,784 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/cut.gif
+12:55:10,785 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+12:55:10,787 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/paste.gif
+12:55:10,788 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+12:55:10,789 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/print.gif
+12:55:10,792 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode.png
+12:55:10,796 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode_selected.gif
+12:55:10,797 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode.png
+12:55:10,799 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode_selected.gif
+12:55:10,799 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode.png
+12:55:10,801 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode_selected.gif
+12:55:10,802 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+12:55:10,920 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+12:55:10,925 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+12:55:10,928 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+12:55:10,932 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+12:55:10,936 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+12:55:11,002 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+12:55:11,003 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+12:55:11,004 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+12:55:11,004 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/passed.gif
+12:55:11,006 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/topic.gif
+12:55:11,007 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+12:55:11,011 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+12:55:11,056 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+12:55:11,060 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.gif
+14:49:18,719 INFO  [Main] Configuring Look and Feel
+14:49:18,771 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.jpg
+14:49:19,351 INFO  [Main] Building user interface
+14:49:19,371 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/backward.gif
+14:49:19,379 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/forward.gif
+14:49:19,380 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/home.gif
+14:49:19,383 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/undo.gif
+14:49:19,384 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/redo.gif
+14:49:19,385 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/cut.gif
+14:49:19,386 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+14:49:19,387 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/paste.gif
+14:49:19,389 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+14:49:19,390 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/print.gif
+14:49:19,391 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode.png
+14:49:19,396 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode_selected.gif
+14:49:19,398 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode.png
+14:49:19,402 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode_selected.gif
+14:49:19,403 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode.png
+14:49:19,405 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode_selected.gif
+14:49:19,406 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+14:49:19,517 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:49:19,521 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+14:49:19,524 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:49:19,528 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+14:49:19,530 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+14:49:19,585 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+14:49:19,585 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+14:49:19,586 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:49:19,587 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/passed.gif
+14:49:19,589 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/topic.gif
+14:49:19,590 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+14:49:19,594 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+14:49:19,661 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+14:49:19,666 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.gif
+14:49:50,687 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:49:50,687 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+14:49:50,690 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:49:50,709 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+14:49:50,712 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+14:49:50,713 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+14:53:20,928 INFO  [Main] Configuring Look and Feel
+14:53:20,964 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.jpg
+14:53:21,454 INFO  [Main] Building user interface
+14:53:21,475 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/backward.gif
+14:53:21,483 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/forward.gif
+14:53:21,484 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/home.gif
+14:53:21,486 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/undo.gif
+14:53:21,488 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/redo.gif
+14:53:21,489 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/cut.gif
+14:53:21,495 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+14:53:21,497 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/paste.gif
+14:53:21,499 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+14:53:21,500 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/print.gif
+14:53:21,502 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode.png
+14:53:21,506 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode_selected.gif
+14:53:21,507 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode.png
+14:53:21,509 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode_selected.gif
+14:53:21,509 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode.png
+14:53:21,511 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode_selected.gif
+14:53:21,512 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+14:53:21,608 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:53:21,613 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+14:53:21,615 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:53:21,619 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+14:53:21,622 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+14:53:21,672 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+14:53:21,672 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+14:53:21,673 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:53:21,674 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/passed.gif
+14:53:21,675 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/topic.gif
+14:53:21,677 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+14:53:21,681 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+14:53:21,728 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+14:53:21,748 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.gif
+14:55:56,831 INFO  [Main] Configuring Look and Feel
+14:55:56,869 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.jpg
+14:55:57,377 INFO  [Main] Building user interface
+14:55:57,389 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/backward.gif
+14:55:57,398 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/forward.gif
+14:55:57,399 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/home.gif
+14:55:57,402 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/undo.gif
+14:55:57,403 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/redo.gif
+14:55:57,404 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/cut.gif
+14:55:57,406 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+14:55:57,407 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/paste.gif
+14:55:57,409 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+14:55:57,410 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/print.gif
+14:55:57,411 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode.png
+14:55:57,416 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode_selected.gif
+14:55:57,418 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode.png
+14:55:57,419 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode_selected.gif
+14:55:57,420 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode.png
+14:55:57,422 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode_selected.gif
+14:55:57,423 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+14:55:57,550 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:55:57,554 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+14:55:57,557 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:55:57,561 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+14:55:57,563 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+14:55:57,614 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+14:55:57,614 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+14:55:57,615 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:55:57,616 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/passed.gif
+14:55:57,617 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/topic.gif
+14:55:57,619 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+14:55:57,622 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+14:55:57,671 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+14:55:57,688 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.gif
+14:57:53,785 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.jpg
+14:57:54,292 INFO  [Main] Building user interface
+14:57:54,299 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/backward.gif
+14:57:54,309 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/forward.gif
+14:57:54,310 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/home.gif
+14:57:54,312 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/undo.gif
+14:57:54,313 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/redo.gif
+14:57:54,314 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/cut.gif
+14:57:54,317 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+14:57:54,319 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/paste.gif
+14:57:54,320 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+14:57:54,321 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/print.gif
+14:57:54,323 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode.png
+14:57:54,326 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/pie_mode_selected.gif
+14:57:54,328 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode.png
+14:57:54,329 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/bar_mode_selected.gif
+14:57:54,330 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode.png
+14:57:54,332 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/table_mode_selected.gif
+14:57:54,333 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+14:57:54,449 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:57:54,456 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+14:57:54,461 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:57:54,464 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+14:57:54,466 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+14:57:54,512 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/worker.png
+14:57:54,513 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/open.gif
+14:57:54,513 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:57:54,514 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/passed.gif
+14:57:54,516 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/topic.gif
+14:57:54,518 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/refresh.gif
+14:57:54,521 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/copy.gif
+14:57:54,573 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/help.gif
+14:57:54,596 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/logo.gif
+14:58:14,367 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:14,389 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:14,398 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:14,904 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:14,920 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:15,672 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:15,771 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:17,717 INFO  [FileList] Opening /Users/karsten/export_acl.csv
+14:58:17,793 ERROR [FileList] Cannot open /Users/karsten/export_acl.csv
+java.io.IOException: Cannot run program "cmd.exe": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:460)
+	at java.lang.Runtime.exec(Runtime.java:593)
+	at java.lang.Runtime.exec(Runtime.java:431)
+	at java.lang.Runtime.exec(Runtime.java:328)
+	at com.pluralis.plucker.gui.widget.FileList.doubleClick(FileList.java:58)
+	at com.pluralis.plucker.gui.widget.FileList$1.mouseClicked(FileList.java:81)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:253)
+	at java.awt.Component.processMouseEvent(Component.java:6376)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6138)
+	at java.awt.Container.processEvent(Container.java:2085)
+	at java.awt.Component.dispatchEventImpl(Component.java:4735)
+	at java.awt.Container.dispatchEventImpl(Container.java:2143)
+	at java.awt.Component.dispatchEvent(Component.java:4565)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4621)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4291)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4212)
+	at java.awt.Container.dispatchEventImpl(Container.java:2129)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4565)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:679)
+	at java.awt.EventQueue.access$000(EventQueue.java:85)
+	at java.awt.EventQueue$1.run(EventQueue.java:638)
+	at java.awt.EventQueue$1.run(EventQueue.java:636)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:652)
+	at java.awt.EventQueue$2.run(EventQueue.java:650)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:649)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:53)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:91)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:453)
+	... 37 more
+14:58:19,387 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:19,534 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:19,552 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:44,764 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:45,036 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:46,920 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:47,275 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:47,303 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:53,012 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/addtask.gif
+14:58:53,013 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+14:58:53,015 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/delete.gif
+14:58:53,087 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:55,319 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:55,854 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:55,871 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:58:59,771 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:59:03,268 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:59:03,641 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:59:03,667 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif
+14:59:07,645 INFO  [GuiUtils] Requesting image file:/Users/karsten/Documents/workspace/plucker/bin/images/files/file.gif

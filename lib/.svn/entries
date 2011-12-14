@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://albedo.kroesch.de/svn/plucker"
+   revision="2"
+   url="https://albedo.kroesch.de/svn/plucker/trunk/lib"
+   last-author="karsten"
+   uuid="23feb8de-63e2-4747-8080-5995b7da7f19"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name=""
+   kind="dir"
+   committed-rev="2"/>
+<entry
+   checksum="1eba6b662accdeeaea475628347feef6"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:28.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="binding.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="a1c60aa83c9c9a6cb2391c1c1b85eb00"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:30.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="bsh.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="05e7348f68bb210b98f6613c057ccb5a"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:38.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="castor-xml.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="7b9216b608d550787bdf43a63d88bf3b"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:34.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="commons-collections.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="9a2fb56e6a79169b2fb6c8a0dc79abb0"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:31.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="commons-discovery-0.2.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="a5c5d32c98081351501f207fee8ca388"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:26.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="commons-jxpath-1.2.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="8a507817b28077e0478add944c64586a"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:43.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="commons-logging-1.0.4.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="58c0058b95c19e2b5eb4380b5278a99c"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:33.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="forms.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="2374ccd7e4ace7ad4a8fc12bf7aa630a"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:42.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="itext-1.3.1.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="75b11fdfdd965d0d5ae41ca61763c221"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:46.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="jasperreports.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="dec595de78d942f5ffb312ac97b7f2f0"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:28.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="javasvn.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="0b8f97de82fc9529b1028a77125ce4f8"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:38.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="jdom.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="5747ab90ab328fb4ebd03cd0fcda48df"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:39.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="jhall.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="3aa45be8fd3f5ae8c69b73959a7fa57c"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:38.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="junit-4.1.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="18a4ca847248e5b8606325684342701c"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:33.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="log4j-1.2.8.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="b9374d0983ef83a39e2f0d861b62411b"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:35.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="looks.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="93945a64a10d366046a2c8174d47cf39"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:43.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="swing-layout-1.0.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="2d2ae0d036d86524fd59a7bfd2564da8"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:32.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="swingx.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="9e850a836738276fdd670bd34144c5fc"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:32.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="swixml.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="497b99c040bee31c46409fd407ce28c4"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:31.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="ui.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="8fe8e62b586e19fd4378cbdd154dcf96"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:49.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="xalan.jar"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="53c0a04a4efb20d52249155a312e91d9"
+   last-author="karsten"
+   prop-time="2009-08-03T09:13:30.000000Z"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="xercesImpl.jar"
+   kind="file"
+   committed-rev="2"/>
+</wc-entries>

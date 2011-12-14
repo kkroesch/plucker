@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://albedo.kroesch.de/svn/plucker"
+   revision="2"
+   url="https://albedo.kroesch.de/svn/plucker/trunk/src/de/kroesch/util"
+   last-author="karsten"
+   uuid="23feb8de-63e2-4747-8080-5995b7da7f19"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name=""
+   kind="dir"
+   committed-rev="2"/>
+<entry
+   checksum="b0b8f881ffbf4214a8c36647656fc5fd"
+   text-time="2009-08-04T12:24:26.000000Z"
+   kind="file"
+   revision="3"
+   last-author="karsten"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   name="GuiUtils.java"
+   committed-rev="3"/>
+<entry
+   checksum="86ab8f9b6344f2fc66c6f9e6f2285454"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="Inspecteur.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="d286926e6a6df613b0ff62f1ae753449"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="ScreenShooter.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="6b8fa2d55d67313f8cb14dfda38b3a16"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="StringEncrypter.java"
+   kind="file"
+   committed-rev="2"/>
+</wc-entries>

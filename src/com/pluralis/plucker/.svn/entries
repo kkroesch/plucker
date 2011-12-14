@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://albedo.kroesch.de/svn/plucker"
+   revision="2"
+   url="https://albedo.kroesch.de/svn/plucker/trunk/src/com/pluralis/plucker"
+   last-author="karsten"
+   uuid="23feb8de-63e2-4747-8080-5995b7da7f19"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name=""
+   kind="dir"
+   committed-rev="2"/>
+<entry
+   checksum="51b8dab7147aad00ab3e6cc817c7dd55"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="ExceptionHandler.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   name="export"
+   kind="dir"/>
+<entry
+   name="gui"
+   kind="dir"/>
+<entry
+   kind="dir"
+   name="importer"/>
+<entry
+   kind="dir"
+   name="messaging"/>
+<entry
+   kind="dir"
+   name="model"/>
+<entry
+   kind="dir"
+   name="plugin"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   name="util"
+   kind="dir"/>
+</wc-entries>

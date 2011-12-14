@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="2"
+   repos="https://albedo.kroesch.de/svn/plucker"
+   url="https://albedo.kroesch.de/svn/plucker/trunk/src/com/pluralis/plucker/test"
+   last-author="karsten"
+   uuid="23feb8de-63e2-4747-8080-5995b7da7f19"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="dir"
+   name=""
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="59e962ff75985a1bfb69a81c2d83821b"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="TestRunner.java"
+   committed-rev="3"/>
+</wc-entries>

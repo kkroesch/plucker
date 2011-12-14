@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project default="installer" name="PREPare">
+
+	<property name="lib.dir" location="lib"/>
+	<property name="src.dir" location="src"/>
+	<property name="build.dest" location="classes"/>
+	<property name="res.dir" location="res"/>
+	<property name="dist.dir" location="install"/>
+	<property name="launch4j.dir" location="C:/Programme/Launch4j"/>
+	
+	<property name="application.version" value="0.8b-2"/>
+
+  <target name="compile">
+  	<replace file="${src.dir}/com/pluralis/plucker/gui/Main.java"
+  		       token="@version@" value="${application.version}"/>
+  	
+		<mkdir dir="${build.dest}"/>
+  	<javac srcdir="${src.dir}" destdir="${build.dest}" debug="on">
+  		<classpath>
+  			<fileset dir="${lib.dir}">
+  		    <include name="**/*.jar"/>
+  			</fileset>
+  	  </classpath>
+    </javac>
+  </target>
+	
+	<target name="jar" depends="compile">
+		<mkdir dir="${dist.dir}"/>
+		<fileset dir="${lib.dir}" id="lib.dist.fileset">
+			<include name="**/*.jar"/>
+		</fileset>
+		<pathconvert pathsep=" " property="dist.classpath" refid="lib.dist.fileset">
+			<map from="${lib.dir}" to=".\lib"/>
+		</pathconvert>
+		
+		<jar destfile="${dist.dir}/prepare.jar">
+			<manifest>
+				<attribute name="Main-Class" value="com.pluralis.plucker.gui.Main"/>
+				<attribute name="Class-Path" value=". ${dist.classpath}"/>
+			</manifest>
+			<fileset dir="${build.dest}">
+				<include name="**/*.class"/>
+			</fileset>
+			<fileset dir="${res.dir}">
+				<include name="**/*.*"/>
+				<exclude name="**/.svn"/>
+				<exclude name="**/*.jrprint"/>
+				<exclude name="**/log4j.xml"/>
+				<exclude name="**/l4j.xml"/>
+			</fileset>
+		</jar>
+	</target>
+
+	<target name="plugins">
+		<mkdir dir="${dist.dir}/plugins"/>
+		<jar destfile="${dist.dir}/plugins/watir-plugin.jar">
+			<fileset dir="plugins/bin/sample">
+				<include name="**/*.*"/>
+			</fileset>
+		</jar>
+	</target>
+	
+	<target name="dist.clean">
+		<delete>
+			<fileset dir="${dist.dir}">
+				<include name="**/*"/>
+				<exclude name="setup.nsi"/>
+			</fileset>
+		</delete>
+	</target>
+	
+	<target name="install" depends="exe">
+		<copy todir="${dist.dir}">
+			<fileset dir=".">
+				<include name="client.properties"/>
+				<include name="castor.properties"/>
+				<include name="project.xml"/>
+				<include name="tipoftheday"/>
+			</fileset>
+		</copy>
+		<copy todir="${dist.dir}">
+			<fileset dir="src">
+				<include name="log4j.xml"/>
+		  </fileset>
+		</copy>
+		<copy todir="${dist.dir}/lib">
+			<fileset dir="lib">
+		    <include name="**.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="${dist.dir}/reports">
+			<fileset dir="reports">
+				<include name="**.jrxml"/>
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="exe" depends="jar" description="Builds executable wrapper">
+		<mkdir dir="${dist.dir}"/>
+		<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask"
+		         classpath="${launch4j.dir}/launch4j.jar:${launch4j.dir}/lib/xstream.jar" />
+		<launch4j configFile="res/xml/l4j.xml"/>
+	</target>
+	
+	<target name="installer" depends="install">
+		<exec dir="${dist.dir}" executable="C:\\Programme\\NSIS\\makensis.exe" output="installer.txt">
+		  <arg line="setup.nsi"/>
+		</exec>
+	</target>
+	
+  <target name="documentation">
+  	<!-- Make screenshots
+  	<java classname="de.kroesch.util.ScreenShooter" / -->
+  	<style in="${res.dir}/xml/menu.xml" out="${res.dir}/help/menu.html"
+  		     style="${res.dir}/xml/menu2man.xsl"/>        
+  </target>
+	
+</project>

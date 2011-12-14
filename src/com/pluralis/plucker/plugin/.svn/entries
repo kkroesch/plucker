@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://albedo.kroesch.de/svn/plucker"
+   revision="2"
+   url="https://albedo.kroesch.de/svn/plucker/trunk/src/com/pluralis/plucker/plugin"
+   last-author="karsten"
+   uuid="23feb8de-63e2-4747-8080-5995b7da7f19"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name=""
+   kind="dir"
+   committed-rev="2"/>
+<entry
+   checksum="56f0324578b19e60d6f22577247958a3"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="AboutPluginAction.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="4b4219933eb4a404b67b6231b65c403c"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="Plugin.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="4a8f727e7ac3500b4276cf26ca07c11b"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="PluginAction.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="6364819c7f642017e4dbb8a4497f4c08"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="PluginRegistry.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="6aa03c9f8fec0fa551b2c96177084aea"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="VisualPlugin.java"
+   kind="file"
+   committed-rev="2"/>
+</wc-entries>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="2"
+   repos="https://albedo.kroesch.de/svn/plucker"
+   url="https://albedo.kroesch.de/svn/plucker/trunk/src/com/pluralis/plucker/gui/action"
+   last-author="karsten"
+   uuid="23feb8de-63e2-4747-8080-5995b7da7f19"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="dir"
+   name=""
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="290b795e4c65f9af8e0420138c61d15d"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="AddActor.java"
+   committed-rev="3"/>
+<entry
+   revision="3"
+   checksum="914d8afe30fe56da428635a41bc35135"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="AddAppointment.java"
+   committed-rev="3"/>
+<entry
+   checksum="521e7dd9898000cbf2bffabf50ba6d31"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="AddBookmark.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="ea4ccbf8af00d589520995eb34f58810"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="AddChangeRequest.java"
+   committed-rev="3"/>
+<entry
+   revision="3"
+   checksum="086bedbe5e6b9fecf71d4d154eec70be"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="AddRequirement.java"
+   committed-rev="3"/>
+<entry
+   revision="3"
+   checksum="716645833adc7fa9668437c70f53d90a"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="AddTask.java"
+   committed-rev="3"/>
+<entry
+   revision="3"
+   checksum="a3bb001ca34593ff039f104fd1e910fb"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="AddTestCase.java"
+   committed-rev="3"/>
+<entry
+   revision="3"
+   checksum="5fd8fc9296b94779df42b6fda26fae7f"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="AddUseCase.java"
+   committed-rev="3"/>
+<entry
+   revision="3"
+   checksum="944f16acc374babcaa89c2d9db8161bc"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="CancelDialog.java"
+   committed-rev="3"/>
+<entry
+   checksum="2ad809eb56c7e7b1c489a7c37647b918"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="CreateDialog.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="d968b013368e270ca3269765aecf3c8b"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="DialogDisposeAction.java"
+   committed-rev="3"/>
+<entry
+   checksum="af4a77adf8802e3b392f5d8a19b46f18"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ExportProject.java"
+   committed-rev="2"/>
+<entry
+   checksum="dead85fead43e7bb12849d45b7f2b67d"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="FileExit.java"
+   committed-rev="2"/>
+<entry
+   checksum="2571c322725404479c67c82b5354696c"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="FileImport.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="7d39b83ae7c808a4cb9ed43fbc591b61"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="FileOpen.java"
+   committed-rev="3"/>
+<entry
+   checksum="9fba777e9b761e4d7006b6f36bac3e88"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="FileSave.java"
+   committed-rev="2"/>
+<entry
+   checksum="d2b2d6e70921404e4aa5186a23fae04d"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="HelpAbout.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="07d4aa2936356be6fa74c9002595d140"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="HelpContent.java"
+   committed-rev="3"/>
+<entry
+   checksum="09a6f2e8cfd654ffb16e6c7dec63b6b9"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="OkDialog.java"
+   committed-rev="2"/>
+<entry
+   checksum="d0422565a260dea6cb9be57eff258950"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ReportBug.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="3674f535847f1ae2c9413f8fb0d3a54f"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="ReportSrs.java"
+   committed-rev="3"/>
+<entry
+   checksum="e6057d217a6f2ac7703fc6fe9c310d34"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="Search.java"
+   committed-rev="2"/>
+<entry
+   checksum="77b40a41314b280dc0645eb369001370"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="SendMessage.java"
+   committed-rev="2"/>
+<entry
+   checksum="e9f553eeb05066956a0cc92e1164d307"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="SetProjectOptions.java"
+   committed-rev="2"/>
+<entry
+   checksum="abb3f0c395d6de7707e1c1567ff806b7"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ShowOptionDialog.java"
+   committed-rev="2"/>
+<entry
+   checksum="10d194ad9437dc18abf76d3684ddca80"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ShowTopic.java"
+   committed-rev="2"/>
+<entry
+   checksum="86c011710de2182de0e2da258614fa9e"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ViewClientLog.java"
+   committed-rev="2"/>
+<entry
+   checksum="dc9cba2ec61b1f09c1cc453ee1ee2a5f"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ViewComponents.java"
+   committed-rev="2"/>
+<entry
+   checksum="ca138cb123697361aede4f8312d92da6"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ViewDesktop.java"
+   committed-rev="2"/>
+<entry
+   checksum="fcec4f33fabaffefde5a0c81c893a0db"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ViewGlossary.java"
+   committed-rev="2"/>
+<entry
+   checksum="074903b972825563ef2662483ce01f51"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ViewSvnStatistics.java"
+   committed-rev="2"/>
+<entry
+   checksum="61f0394182f8dfa2b7bef6d561a528e8"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ViewTestRunner.java"
+   committed-rev="2"/>
+<entry
+   checksum="ad90b8a84eeae7e2c1f53721d0382655"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ViewWelcomeScreen.java"
+   committed-rev="2"/>
+</wc-entries>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://albedo.kroesch.de/svn/plucker"
+   revision="2"
+   url="https://albedo.kroesch.de/svn/plucker/trunk/src/com/pluralis/plucker/model"
+   last-author="karsten"
+   uuid="23feb8de-63e2-4747-8080-5995b7da7f19"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name=""
+   kind="dir"
+   committed-rev="2"/>
+<entry
+   checksum="ed33110974c75b6eded5f20fbe96f5d4"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="Activity.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="275fc9f5191f71b25be813a6e11b249f"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="Actor.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="cf649f0c77f382452634541e9e6cb124"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="BeanTableModel.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="683a9a4e831c731ca16491da669aa978"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="ChangeRequest.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="c20708fa5b1ed466359e2f72611ee36f"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="ClientOptions.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="f61996be3461026c44d061d7e0005178"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="EstimationSettings.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="712748be3c82e4beeb664d70db59d0c9"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="File.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="57f88870ed1649250aa8830d7674c986"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="GlossaryEntry.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="5d9fdaad03f41a6a0069fbf3de1d83ed"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="NamedEntry.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="20d63ad639b44725cf9d2237c1111bca"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="Project.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="3d29c60396e5e3bf52df70a20318b3e7"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="ProjectChangeListener.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="98a313bba49c580d2ff1af2c1e80e7b7"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="ProjectTreeModel.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="ce545a302e81bc06352fefba5f807a0c"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="PropertyTableModel.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="6aa71aab614a118e1c149b1a3feae1fe"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="Requirement.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="bfa6c7af1478d4e2edea29a03899132b"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="TestCase.java"
+   kind="file"
+   committed-rev="2"/>
+<entry
+   checksum="d748db7a2a44af775c79d87b0151c1d5"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name="UseCase.java"
+   kind="file"
+   committed-rev="2"/>
+</wc-entries>

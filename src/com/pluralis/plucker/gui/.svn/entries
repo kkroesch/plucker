@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="2"
+   repos="https://albedo.kroesch.de/svn/plucker"
+   url="https://albedo.kroesch.de/svn/plucker/trunk/src/com/pluralis/plucker/gui"
+   last-author="karsten"
+   uuid="23feb8de-63e2-4747-8080-5995b7da7f19"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   name=""
+   kind="dir"
+   committed-rev="2"/>
+<entry
+   checksum="2365167cfe77f7ba219f1bb29ee98e86"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="Application.java"
+   committed-rev="2"/>
+<entry
+   checksum="d2a84f89f376f0309f9a7beeaf516cc4"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ComponentCreator.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="dd0e30fbc6fc29f8fd2d2af2b7322c12"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="Components.java"
+   committed-rev="3"/>
+<entry
+   checksum="4ab620b56a221dd3d84a0ca9684e6787"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="ContainerPanel.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="fa093e0f1fcb8050a8d783ad5a90b475"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="Desktop.java"
+   committed-rev="3"/>
+<entry
+   checksum="8ee250255895e527bf28b7b421ef65e3"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="DontBotherMeDialog.java"
+   committed-rev="2"/>
+<entry
+   checksum="ea4ff5a52915110f973f2bb4540e22a6"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="FocusRequester.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="d24324e7afb11a98cbf9af82164bbfac"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="GlossarEditor.java"
+   committed-rev="3"/>
+<entry
+   revision="3"
+   checksum="8399b8b6ff04bb9abd0b285ade3504de"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="Main.java"
+   committed-rev="3"/>
+<entry
+   checksum="c6d30e425bea1136d313f97b102146a7"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="MenuBar.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="9897e3896e4ea405143357ae53223ec4"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="NavigationHistory.java"
+   committed-rev="3"/>
+<entry
+   checksum="8e003a2a2564e954c7fbef60d12f1eb7"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="NavigationPanel.java"
+   committed-rev="2"/>
+<entry
+   checksum="5ce2ae321afa1e45f33934f19a70b870"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="Settings.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="9714562b552bf4811e2ddf5dbc676c59"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="SplashScreen.java"
+   committed-rev="3"/>
+<entry
+   checksum="767f6c5214d628573dd3e47e6ce1b58b"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="StatusBar.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="c73b625ac2778355a986d202abe5ca1c"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="TestApplication.java"
+   committed-rev="3"/>
+<entry
+   checksum="f58a20b5213aaa3c936070b0d9d24f7b"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="TipRunner.java"
+   committed-rev="2"/>
+<entry
+   revision="3"
+   checksum="ec29b1bf5d6b10200191ee58fe61dd8e"
+   last-author="karsten"
+   text-time="2009-08-04T12:15:47.000000Z"
+   committed-date="2009-08-04T12:30:33.025000Z"
+   kind="file"
+   name="ToolBar.java"
+   committed-rev="3"/>
+<entry
+   checksum="b9ee962180dd6e7a65351f17b95a41ad"
+   last-author="karsten"
+   text-time="2009-08-03T08:27:41.000000Z"
+   committed-date="2009-08-03T08:27:41.412588Z"
+   kind="file"
+   name="WelcomeScreen.java"
+   committed-rev="2"/>
+<entry
+   name="action"
+   kind="dir"/>
+<entry
+   kind="dir"
+   name="dialog"/>
+<entry
+   name="widget"
+   kind="dir"/>
+</wc-entries>

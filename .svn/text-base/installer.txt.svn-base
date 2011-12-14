@@ -1,0 +1,142 @@
+MakeNSIS v2.17 - Copyright 1999-2006 Nullsoft, Inc.
+
+Portions Copyright (C) 1995-1998 Jean-loup Gailly and Mark Adler (zlib).
+Portions Copyright (C) 1996-2002 Julian R Seward (bzip2).
+Portions Copyright (C) 1999-2003 Igor Pavlov (lzma).
+
+Contributors: nnop@newmail.ru, Ryan Geiss, Andras Varga, Drew Davidson, Peter Windridge, Dave Laundon, Robert Rainwater, Yaroslav Faybishenko, Jeff Doozan, Amir Szekely, Ximon Eighteen, et al.
+
+Processing config: 
+Processing plugin dlls: "C:\Programme\NSIS\Plugins\*.dll"
+ - AdvSplash::show
+ - Banner::destroy
+ - Banner::getWindow
+ - Banner::show
+ - BgImage::AddImage
+ - BgImage::AddText
+ - BgImage::Clear
+ - BgImage::Destroy
+ - BgImage::Redraw
+ - BgImage::SetBg
+ - BgImage::SetReturn
+ - BgImage::Sound
+ - Dialer::AttemptConnect
+ - Dialer::AutodialHangup
+ - Dialer::AutodialOnline
+ - Dialer::AutodialUnattended
+ - Dialer::GetConnectedState
+ - InstallOptions::dialog
+ - InstallOptions::initDialog
+ - InstallOptions::show
+ - LangDLL::LangDialog
+ - Math::Script
+ - NSISdl::download
+ - NSISdl::download_quiet
+ - Splash::show
+ - StartMenu::Init
+ - StartMenu::Select
+ - StartMenu::Show
+ - System::Alloc
+ - System::Call
+ - System::Copy
+ - System::Free
+ - System::Get
+ - System::Int64Op
+ - System::Store
+ - TypeLib::GetLibVersion
+ - TypeLib::Register
+ - TypeLib::UnRegister
+ - UserInfo::GetAccountType
+ - UserInfo::GetName
+ - VPatch::vpatchfile
+ - nsExec::Exec
+ - nsExec::ExecToLog
+ - nsExec::ExecToStack
+
+!define: "MUI_INSERT_NSISCONF"=""
+
+Changing directory to: "D:\workspace\plucker\install"
+
+Processing script file: "setup.nsi"
+Name: "PluckerInstaller"
+OutFile: "..\prepare-setup.exe"
+XPStyle: on
+InstallDir: "$PROGRAMFILES\Pluralis\Prepare"
+Page: directory
+Page: instfiles
+Section: ""
+SetOutPath: "$INSTDIR"
+File: Descending to: ".\lib\"
+File: "amlib.jar" [compress] 69800/75626 bytes
+File: "binding.jar" [compress] 104327/119126 bytes
+File: "bsh-2.0b4-src.jar" [compress] 1571762/1636723 bytes
+File: "bsh.jar" [compress] 262924/281694 bytes
+File: "castor-xml.jar" [compress] 1224242/1330754 bytes
+File: "commons-beanutils-1.5.jar" [compress] 98091/110681 bytes
+File: "commons-collections.jar" [compress] 499730/571259 bytes
+File: "commons-digester-1.7.jar" [compress] 122911/139966 bytes
+File: "commons-discovery-0.2.jar" [compress] 59412/71442 bytes
+File: "commons-javaflow-20060411.jar" [compress] 86723/96529 bytes
+File: "commons-jxpath-1.2.jar" [compress] 257135/285104 bytes
+File: "commons-logging-1.0.4.jar" [compress] 34546/38015 bytes
+File: "forms.jar" [compress] 77954/85503 bytes
+File: "itext-1.3.1.jar" [compress] 1473359/1553403 bytes
+File: "jasperreports.jar" [compress] 1224371/1356499 bytes
+File: "javasvn.jar" [compress] 700210/755969 bytes
+File: "jdom.jar" [compress] 144657/153253 bytes
+File: "jgraph.jar" [compress] 143111/153826 bytes
+File: "jhall.jar" [compress] 537039/588596 bytes
+File: "jmock.jar" [compress] 109980/126585 bytes
+File: "jta.jar" [compress] 5994/8812 bytes
+File: "junit-4.1.jar" [compress] 96027/112249 bytes
+File: "log4j-1.2.8.jar" [compress] 316381/352668 bytes
+File: "looks.jar" [compress] 298165/335913 bytes
+File: "oro.jar" [compress] 56168/64240 bytes
+File: "poi-2.0-final-20040126.jar" [compress] 569909/619881 bytes
+File: "smack.jar" [compress] 170513/188221 bytes
+File: "smackx.jar" [compress] 269697/301569 bytes
+File: "swing-layout-1.0.jar" [compress] 54666/140545 bytes
+File: "swingx.jar" [compress] 313573/943714 bytes
+File: "swixml.jar" [compress] 45838/50296 bytes
+File: "ui.jar" [compress] 146624/401005 bytes
+File: "validation.jar" [compress] 38641/46060 bytes
+File: "vcsreport.jar" [compress] 45393/49456 bytes
+File: "xalan.jar" [compress] 1660471/1781922 bytes
+File: "xercesImpl.jar" [compress] 890945/1010806 bytes
+File: "xmlParserAPIs.jar" [compress] 92133/124724 bytes
+File: Returning to: "."
+File: Descending to: ".\reports\"
+File: "Projektstatus.jrxml" [compress] 1123/4874 bytes
+File: "Software_Estimation.jrxml" [compress] 1328/8973 bytes
+File: Returning to: "."
+File: Descending to: ".\plugins\"
+File: "watir-plugin.jar" [compress] 1604/2634 bytes
+File: Returning to: "."
+File: "castor.properties" [compress] 29 bytes
+File: "client.properties" [compress] 172/205 bytes
+File: "Sample Project.xml" [compress] 0 bytes
+File: "log4j.xml" [compress] 489/1421 bytes
+File: "project.xml" [compress] 319/829 bytes
+File: "tipoftheday" [compress] 260/424 bytes
+File: "prepare.jar" [compress] 551492/591629 bytes
+File: "prepare.exe" [compress] 561101/611085 bytes
+CreateShortCut: "$DESKTOP\PREPare.lnk"->"$INSTDIR\prepare.exe"  icon:$INSTDIR\prepare.exe,0, showmode=0x1, hotkey=0x0, comment=
+CreateShortCut: "$STARTMENU\Programme\PREPare.lnk"->"$INSTDIR\prepare.exe"  icon:$INSTDIR\prepare.exe,0, showmode=0x1, hotkey=0x0, comment=
+SectionEnd
+
+Processed 1 file, writing output:
+Processing pages... Done!
+Removing unused resources... Done!
+Generating language tables... Done!
+
+Output: "D:\workspace\plucker\prepare-setup.exe"
+Install: 3 pages (192 bytes), 1 section (1048 bytes), 61 instructions (1708 bytes), 95 strings (1671 bytes), 1 language table (230 bytes).
+
+Using zlib compression.
+
+EXE header size:               33280 / 34816 bytes
+Install code:                   1759 / 5165 bytes
+Install data:               14991531 / 17284929 bytes
+CRC (0x65A22F21):                  4 / 4 bytes
+
+Total size:                 15026574 / 17324914 bytes (86.7%)
