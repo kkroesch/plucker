@@ -5,8 +5,6 @@ import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.UIManager;
 
-import org.apache.log4j.Logger;
-
 import com.jgoodies.looks.plastic.PlasticXPLookAndFeel;
 import com.pluralis.plucker.model.ClientOptions;
 import com.pluralis.plucker.model.Project;
@@ -14,10 +12,12 @@ import com.pluralis.plucker.plugin.PluginRegistry;
 
 import de.kroesch.util.GuiUtils;
 
+import java.util.logging.Logger;
+
 
 public class TestApplication implements Application {
 
-  private static final Logger log = Logger.getLogger(TestApplication.class);
+  private static final Logger log = Logger.getLogger("TestApplication");
   
   private JFrame rootWindow;
   
@@ -77,15 +77,15 @@ public class TestApplication implements Application {
   }
 
   public void userInfo(String message) {
-    log.info(message);
+    log.fine(message);
   }
 
   public void userWarn(String message) {
-    log.warn(message);
+    log.fine(message);
   }
 
   public void userError(String message) {
-    log.error(message);
+    log.severe(message);
   }
 
   public Project getProject() {
@@ -93,11 +93,11 @@ public class TestApplication implements Application {
   }
 
   public void setProject(Project project) {
-    log.info("Switching project to " + project.getName());
+    log.fine("Switching project to " + project.getName());
   }
 
   public void handle(Throwable t) {
-    log.error("Handled Throwable ", t);
+    log.fine("Handled Throwable " + t.getMessage());
   }
 
   public String getApplicationName() {

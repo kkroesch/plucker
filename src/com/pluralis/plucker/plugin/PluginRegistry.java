@@ -8,16 +8,15 @@ import java.net.URLClassLoader;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.logging.Logger;
 
 import javax.imageio.spi.ServiceRegistry;
-
-import org.apache.log4j.Logger;
 
 import com.pluralis.plucker.gui.Application;
 
 public class PluginRegistry {
 
-  private Logger log = Logger.getLogger(PluginRegistry.class);
+  private Logger log = Logger.getLogger("PluginRegistry");
   
   private Application application;
   
@@ -35,7 +34,7 @@ public class PluginRegistry {
     
     // Handle malformed or missing plugin directory
     if (jarFiles == null) {
-      log.warn("Plugin directory not found.");
+      log.severe("Plugin directory not found.");
       return;
     }
 

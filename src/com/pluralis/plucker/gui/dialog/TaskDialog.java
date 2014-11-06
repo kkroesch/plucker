@@ -3,6 +3,7 @@ import static com.pluralis.plucker.model.Activity.STATUS_VALUES;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
+import java.util.logging.Logger;
 
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;
@@ -13,7 +14,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import org.apache.log4j.Logger;
 import org.jdesktop.swingx.JXDatePicker;
 
 import com.jgoodies.binding.PresentationModel;
@@ -37,7 +37,7 @@ import de.kroesch.util.GuiUtils;
 
 public class TaskDialog implements ComponentCreator, Editor {
 
-  private Logger log = Logger.getLogger(TaskDialog.class);
+  private Logger log = Logger.getLogger("TaskDialog");
   
   private Application application;
   

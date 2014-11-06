@@ -5,6 +5,7 @@ import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.logging.Logger;
 import javax.swing.JCheckBox;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
@@ -19,7 +20,6 @@ import javax.swing.WindowConstants;
 import javax.swing.border.EmptyBorder;
 import javax.swing.plaf.metal.DefaultMetalTheme;
 import javax.swing.plaf.metal.MetalLookAndFeel;
-import org.apache.log4j.Logger;
 import com.jgoodies.looks.LookUtils;
 import com.jgoodies.looks.Options;
 import com.jgoodies.looks.plastic.PlasticLookAndFeel;
@@ -59,7 +59,7 @@ public class Main extends JFrame implements Application {
   /** Describes optional settings of the JGoodies Looks. */
   private final Settings settings;
   
-  private static Logger log = Logger.getLogger(Main.class);
+  private static Logger log = Logger.getLogger("Main");
   
   private Project project = new Project();
   
@@ -102,7 +102,7 @@ public class Main extends JFrame implements Application {
       instance.setVisible(true);
     } catch (RuntimeException t) {
       JOptionPane.showMessageDialog(instance, "Cannot start Application: " + t, "ERROR", JOptionPane.ERROR_MESSAGE);
-      log.fatal("Cannot start Application.", t);
+      log.severe("Cannot start Application.");
       System.exit(1);
     }
   }
@@ -154,7 +154,7 @@ public class Main extends JFrame implements Application {
     try {
       UIManager.setLookAndFeel(selectedLaf);
     } catch (Exception e) {
-      log.error("Can't change L&F", e);
+      log.severe("Can't change L&F" + e.getMessage());
     }
 
   }
@@ -163,7 +163,7 @@ public class Main extends JFrame implements Application {
    * Builds the <code>DemoFrame</code> using Options from the Launcher.
    */
   private void build() {
-    log.info("Building user interface");
+    log.fine("Building user interface");
 
     setContentPane(buildContentPane());
     setTitle(getWindowTitle());
@@ -190,10 +190,10 @@ public class Main extends JFrame implements Application {
   private JComponent buildContentPane() {
     JPanel panel = new JPanel(new BorderLayout());
     
-    log.debug("Building toolbar");
+    log.fine("Building toolbar");
     panel.add(new ToolBar(settings).create(), BorderLayout.NORTH);
 
-    log.debug("Building main panel");
+    log.fine("Building main panel");
     panel.add(buildMainPanel(), BorderLayout.CENTER);
     
     panel.add(statusBar, BorderLayout.SOUTH);
@@ -201,7 +201,7 @@ public class Main extends JFrame implements Application {
   }
 
   private Component buildMainPanel() {
-    log.debug("Building main panel");
+    log.fine("Building main panel");
     contentPanel = new ContainerPanel(this);
     JComponent comp = contentPanel.build();
 
@@ -257,22 +257,18 @@ public class Main extends JFrame implements Application {
   }
 
   public void userError(String message) {
-    log.error("User got error: " + message);
     JOptionPane.showMessageDialog(frame, message, "ERROR", JOptionPane.ERROR_MESSAGE);
   }
 
   public void userInfo(String message) {
-    log.info("User got info: " + message);
     JOptionPane.showMessageDialog(frame, message);
   }
 
   public void userWarn(String message) {
-    log.warn("User got warning: " + message);
     JOptionPane.showMessageDialog(frame, message, "WARNING", JOptionPane.WARNING_MESSAGE);
   }
 
   public void handle(Throwable throwable) {
-    log.error("Handled: " + throwable);
     userError(throwable.getMessage());
   }
   

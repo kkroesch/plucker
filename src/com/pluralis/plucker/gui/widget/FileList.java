@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 import javax.swing.AbstractAction;
 import javax.swing.Action;
@@ -23,7 +24,6 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
-import org.apache.log4j.Logger;
 import org.jdesktop.swingx.JXHyperlink;
 
 import com.pluralis.plucker.gui.Application;
@@ -34,7 +34,7 @@ import de.kroesch.util.GuiUtils;
 
 public class FileList implements ComponentCreator {
 
-  private Logger log = Logger.getLogger(FileList.class);
+  private Logger log = Logger.getLogger("FileList");
   
   private Map<String, String> extensions = new HashMap<String, String>();
   
@@ -57,7 +57,7 @@ public class FileList implements ComponentCreator {
       // FIXME 
       Process proc = Runtime.getRuntime().exec("cmd.exe /c \"" + file.getAbsolutePath() + "\"");
     } catch (IOException ex) {
-      log.error("Cannot open " + file, ex);
+      log.severe("Cannot open " + file +  ex.getMessage());
       throw new RuntimeException(ex);
     }
   }

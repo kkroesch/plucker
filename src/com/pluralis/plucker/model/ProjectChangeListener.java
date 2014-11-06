@@ -2,12 +2,11 @@ package com.pluralis.plucker.model;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-
-import org.apache.log4j.Logger;
+import java.util.logging.Logger;
 
 public class ProjectChangeListener implements PropertyChangeListener {
   
-  private Logger log = Logger.getLogger(Project.class); 
+  private Logger log = Logger.getLogger("Project");
 
   private Project project;
   
@@ -16,7 +15,7 @@ public class ProjectChangeListener implements PropertyChangeListener {
   }
 
   public void propertyChange(PropertyChangeEvent evt) {
-    log.debug("Property change: " + evt.getPropertyName() + " from " + evt.getOldValue() + " to " + evt.getNewValue());
+    log.fine("Property change: " + evt.getPropertyName() + " from " + evt.getOldValue() + " to " + evt.getNewValue());
     if (project.isDirty()) return;
     
     log.info("Project changed state to dirty.");

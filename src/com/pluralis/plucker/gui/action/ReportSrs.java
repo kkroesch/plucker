@@ -7,13 +7,12 @@ import java.awt.Cursor;
 import java.awt.event.ActionEvent;
 import java.io.File;
 import java.io.IOException;
+import java.util.logging.Logger;
 
 import javax.swing.AbstractAction;
 import javax.swing.Action;
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileFilter;
-
-import org.apache.log4j.Logger;
 
 import com.lowagie.text.DocumentException;
 import com.pluralis.plucker.export.PdfExport;
@@ -24,8 +23,8 @@ import de.kroesch.util.GuiUtils;
 
 public class ReportSrs extends AbstractAction {
 
-  private Logger log = Logger.getLogger(ReportSrs.class);
-  
+  private Logger log = Logger.getLogger("PluginRegistry");
+
   private String fileName = "SRS.rtf";
   
   private Application application;
@@ -60,12 +59,12 @@ public class ReportSrs extends AbstractAction {
       PdfExport exporter = new PdfExport(application.getProject());
       exporter.export(fileName);
       
-      log.info("Successfully exported to: " + fileName );
+      log.fine("Successfully exported to: " + fileName);
     } catch (IOException e) {
-      log.error("Exporting to: " + fileName, e);
+      log.severe("Exporting to: " + fileName);
       throw new RuntimeException(e);
     } catch (DocumentException e) {
-      log.error("Exporting to: " + fileName, e);
+      log.severe("Exporting to: " + fileName);
       throw new RuntimeException(e);
     } finally {
       application.rootWindow().getContentPane().setCursor(cursor);

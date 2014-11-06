@@ -7,8 +7,6 @@ import javax.swing.Action;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 
-import org.apache.log4j.Logger;
-
 import com.pluralis.plucker.gui.action.ExportProject;
 import com.pluralis.plucker.gui.action.FileExit;
 import com.pluralis.plucker.gui.action.FileImport;
@@ -95,8 +93,6 @@ public class MenuBar {
   public Action reportBugAction;
 
   private Application application;
-
-  private Logger log = Logger.getLogger(MenuBar.class);
 
   public MenuBar(Application application) {
     this.application = application;

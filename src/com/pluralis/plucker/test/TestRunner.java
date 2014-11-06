@@ -6,6 +6,7 @@ import java.awt.Component;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
+import java.util.logging.Logger;
 
 import javax.swing.AbstractAction;
 import javax.swing.Action;
@@ -23,8 +24,6 @@ import javax.swing.JScrollPane;
 import javax.swing.ListCellRenderer;
 import javax.swing.border.EmptyBorder;
 
-import org.apache.log4j.Logger;
-
 import com.pluralis.plucker.gui.Application;
 import com.pluralis.plucker.gui.ComponentCreator;
 import com.pluralis.plucker.model.TestCase;
@@ -39,7 +38,7 @@ import de.kroesch.util.GuiUtils;
  */
 public class TestRunner implements ComponentCreator {
   
-  private Logger log = Logger.getLogger(TestRunner.class);
+  private Logger log = Logger.getLogger("TestRunner");
 
   private JProgressBar progress;
   

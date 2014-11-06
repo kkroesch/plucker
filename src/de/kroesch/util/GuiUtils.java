@@ -9,6 +9,7 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.net.URL;
+import java.util.logging.Logger;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -20,7 +21,6 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 import javax.swing.table.TableColumn;
 
-import org.apache.log4j.Logger;
 
 /**
  * Provides several utilities for developing Swing applications.
@@ -33,7 +33,7 @@ public class GuiUtils {
   private static Cursor origCursor;
   private static JFrame actualWindow;
   
-  private static Logger log = Logger.getLogger(GuiUtils.class);
+  private static Logger log = Logger.getLogger("GuiUtils");
   
   /**
    * Centers window in the middle of the screen.
@@ -84,7 +84,7 @@ public class GuiUtils {
       url = GuiUtils.class.getClassLoader().getResource("images/" + filename);
       log.info("Requesting image " + url);
     } catch (Exception e) {
-      log.fatal("Cannot retrieve image " + filename);
+      log.severe("Cannot retrieve image " + filename);
       throw new RuntimeException(e);
     }
     return new ImageIcon(url);
@@ -98,7 +98,7 @@ public class GuiUtils {
       log.info("Requesting resource " + relativePath);
       return GuiUtils.class.getClassLoader().getResource(relativePath);
     } catch (RuntimeException e) {
-      log.fatal("Cannot retrieve resource " + relativePath);
+      log.severe("Cannot retrieve resource " + relativePath);
       throw new RuntimeException(e);
     }
   }
